@@ -1,0 +1,24 @@
+package my_linked_list;
+
+public class Element<TYPE> {
+	private Element<TYPE> value;
+	private Element<TYPE> next;
+	
+	public Element(Element<TYPE> newValue) {
+		this.value = newValue;
+	}
+
+	public Element<TYPE> getValue() {
+		return value;
+	}
+	public void setValue(Element<TYPE> value) {
+		this.value = value;
+	}
+
+	public Element<TYPE> getNext() {
+		return next;
+	}
+	public void setNext(Element<TYPE> next) {
+		this.next = next;
+	}
+}
